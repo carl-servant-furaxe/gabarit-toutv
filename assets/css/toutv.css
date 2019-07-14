@@ -1,0 +1,309 @@
+/**
+ * SRC
+**/
+@font-face {
+	font-family: 'FontAwesome';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/font-awesome/fontawesome-webfont.eot?v=4.6.3');
+	src: url('../fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), url('../fonts/font-awesome/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), url('../fonts/font-awesome/fontawesome-webfont.woff?v=4.6.3') format('woff'), url('../fonts/font-awesome/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), url('../fonts/font-awesome/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+
+}
+@font-face {
+    font-family: 'Radio-Canada Icon';
+    src: url('../fonts/Icon_Radio-Canada.eot');
+    src: url('../fonts/Icon_Radio-Canada.eot?#iefix') format('embedded-opentype'), url('../fonts/Icon_Radio-Canada.woff') format('woff'), url('../fonts/Icon_Radio-Canada.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Radio-Canada';
+    src: url('../fonts/radio-canada/web/Radio-Canada-Regular.eot');
+    src: url('../fonts/radio-canada/web/Radio-Canada-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/radio-canada/web/Radio-Canada-Regular.woff') format('woff'), url('../fonts/radio-canada/web/Radio-Canada-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Radio-Canada';
+    src: url('../fonts/radio-canada/web/Radio-Canada-Light.eot');
+    src: url('../fonts/radio-canada/web/Radio-Canada-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/radio-canada/web/Radio-Canada-Light.woff') format('woff'), url('../fonts/radio-canada/web/Radio-Canada-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Radio-Canada';
+    src: url('../fonts/radio-canada/web/Radio-Canada-LightItalic.eot');
+    src: url('../fonts/radio-canada/web/Radio-Canada-LightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/radio-canada/web/Radio-Canada-LightItalic.woff') format('woff'), url('../fonts/radio-canada/web/Radio-Canada-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic
+}
+@font-face {
+    font-family: 'Radio-Canada';
+    src: url('../fonts/radio-canada/web/Radio-Canada-Medium.eot');
+    src: url('../fonts/radio-canada/web/Radio-Canada-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/radio-canada/web/Radio-Canada-Medium.woff') format('woff'), url('../fonts/radio-canada/web/Radio-Canada-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Radio-Canada';
+    src: url('../fonts/radio-canada/web/Radio-Canada-MediumItalic.eot');
+    src: url('../fonts/radio-canada/web/Radio-Canada-MediumItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/radio-canada/web/Radio-Canada-MediumItalic.woff') format('woff'), url('../fonts/radio-canada/web/Radio-Canada-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic
+}
+@font-face {
+    font-family: 'Radio-Canada';
+    src: url('../fonts/radio-canada/web/Radio-Canada-Bold.eot');
+    src: url('../fonts/radio-canada/web/Radio-Canada-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/radio-canada/web/Radio-Canada-Bold.woff') format('woff'), url('../fonts/radio-canada/web/Radio-Canada-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Radio-Canada';
+    src: url('../fonts/radio-canada/web/Radio-Canada-Italic.eot');
+    src: url('../fonts/radio-canada/web/Radio-Canada-Italic.eot?#iefix') format('embedded-opentype'), url('../fonts/radio-canada/web/Radio-Canada-Italic.woff') format('woff'), url('../fonts/radio-canada/web/Radio-Canada-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic
+}
+@font-face {
+    font-family: 'Radio-Canada';
+    src: url('../fonts/radio-canada/web/Radio-Canada-BoldItalic.eot');
+    src: url('../fonts/radio-canada/web/Radio-Canada-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/radio-canada/web/Radio-Canada-BoldItalic.woff') format('woff'), url('../fonts/radio-canada/web/Radio-Canada-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic
+}
+@font-face {
+    font-family: 'cbcrc';
+    src: url("https://s.radio-canada.ca/_font/cbcrc/fonts/cbcrc.eot?5jaik");
+    src: url("https://s.radio-canada.ca/_font/cbcrc/fonts/cbcrc.eot?#iefix5jaik") format("embedded-opentype"), url("https://s.radio-canada.ca/_font/cbcrc/fonts/cbcrc.woff?5jaik") format("woff"), url("https://s.radio-canada.ca/_font/cbcrc/fonts/cbcrc.ttf?5jaik") format("truetype"), url("https://s.radio-canada.ca/_font/cbcrc/fonts/cbcrc.svg?5jaik#cbcrc") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Rubrik';
+    src: url('../fonts/rubrik/Rubrik-ExtraLight.eot');
+    src: url('../fonts/rubrik/Rubrik-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/rubrik/Rubrik-ExtraLight.woff2') format('woff2'),
+        url('../fonts/rubrik/Rubrik-ExtraLight.woff') format('woff'),
+        url('../fonts/rubrik/Rubrik-ExtraLight.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubrik';
+    src: url('../fonts/rubrik/Rubrik-ExtraLightItalic.eot');
+    src: url('../fonts/rubrik/Rubrik-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/rubrik/Rubrik-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/rubrik/Rubrik-ExtraLightItalic.woff') format('woff'),
+        url('../fonts/rubrik/Rubrik-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rubrik';
+    src: url('../fonts/rubrik/Rubrik-Light.eot');
+    src: url('../fonts/rubrik/Rubrik-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/rubrik/Rubrik-Light.woff2') format('woff2'),
+        url('../fonts/rubrik/Rubrik-Light.woff') format('woff'),
+        url('../fonts/rubrik/Rubrik-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubrik';
+    src: url('../fonts/rubrik/Rubrik-LightItalic.eot');
+    src: url('../fonts/rubrik/Rubrik-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/rubrik/Rubrik-LightItalic.woff2') format('woff2'),
+        url('../fonts/rubrik/Rubrik-LightItalic.woff') format('woff'),
+        url('../fonts/rubrik/Rubrik-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rubrik';
+    src: url('../fonts/rubrik/Rubrik-Regular.eot');
+    src: url('../fonts/rubrik/Rubrik-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/rubrik/Rubrik-Regular.woff2') format('woff2'),
+        url('../fonts/rubrik/Rubrik-Regular.woff') format('woff'),
+        url('../fonts/rubrik/Rubrik-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubrik';
+    src: url('../fonts/rubrik/Rubrik-Italic.eot');
+    src: url('../fonts/rubrik/Rubrik-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/rubrik/Rubrik-Italic.woff2') format('woff2'),
+        url('../fonts/rubrik/Rubrik-Italic.woff') format('woff'),
+        url('../fonts/rubrik/Rubrik-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rubrik';
+    src: url('../fonts/rubrik/Rubrik-Medium.eot');
+    src: url('../fonts/rubrik/Rubrik-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/rubrik/Rubrik-Medium.woff2') format('woff2'),
+        url('../fonts/rubrik/Rubrik-Medium.woff') format('woff'),
+        url('../fonts/rubrik/Rubrik-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubrik';
+    src: url('../fonts/rubrik/Rubrik-MediumItalic.eot');
+    src: url('../fonts/rubrik/Rubrik-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/rubrik/Rubrik-MediumItalic.woff2') format('woff2'),
+        url('../fonts/rubrik/Rubrik-MediumItalic.woff') format('woff'),
+        url('../fonts/rubrik/Rubrik-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rubrik';
+    src: url('../fonts/rubrik/Rubrik-SemiBold.eot');
+    src: url('../fonts/rubrik/Rubrik-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/rubrik/Rubrik-SemiBold.woff2') format('woff2'),
+        url('../fonts/rubrik/Rubrik-SemiBold.woff') format('woff'),
+        url('../fonts/rubrik/Rubrik-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubrik';
+    src: url('../fonts/rubrik/Rubrik-SemiBoldItalic.eot');
+    src: url('../fonts/rubrik/Rubrik-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/rubrik/Rubrik-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/rubrik/Rubrik-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/rubrik/Rubrik-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rubrik';
+    src: url('../fonts/rubrik/Rubrik-Bold.eot');
+    src: url('../fonts/rubrik/Rubrik-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/rubrik/Rubrik-Bold.woff2') format('woff2'),
+        url('../fonts/rubrik/Rubrik-Bold.woff') format('woff'),
+        url('../fonts/rubrik/Rubrik-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubrik';
+    src: url('../fonts/rubrik/Rubrik-BoldItalic.eot');
+    src: url('../fonts/rubrik/Rubrik-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/rubrik/Rubrik-BoldItalic.woff2') format('woff2'),
+        url('../fonts/rubrik/Rubrik-BoldItalic.woff') format('woff'),
+        url('../fonts/rubrik/Rubrik-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+/* RESET
+Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 2.8.2r1
+*/
+html{color:#000;background:#FFF}blockquote,body,button,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{border:0;margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,optgroup,strong,th,var{font-style:inherit;font-weight:inherit}del,ins{text-decoration:none}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}q:after,q:before{content:''}abbr,acronym{border:0;font-variant:normal}sub,sup{vertical-align:baseline}legend{color:inherit}button,input,optgroup,option,select,textarea{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}button,input,select,textarea{font-size:100%}
+/* BASE
+Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 2.8.2r1
+*/
+*{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}html{-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;font-smoothing:antialiased}body{margin:2em}address,article,aside,audio,blockquote,canvas,dd,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hr,input,main,nav,noscript,ol,output,p,pre,section,select,td,textarea,th,ul,video{line-height:inherit}h1{font-size:138.5%}h2{font-size:123.1%}h3{font-size:108%}fieldset,h1,h2,h3,p,pre,table{margin:1em 0}caption,dt,h1,h2,h3,h4,h5,h6,strong,th{font-weight:700}optgroup{font-weight:400}abbr,acronym{border-bottom:1px dotted #000;cursor:help}em{font-style:italic}del{text-decoration:line-through;color:red}blockquote,dl,ol,ul{margin:1em}dl,ol,ul{margin-left:2em}ol li{list-style:decimal}ul li{list-style:disc}td,th{border:0;padding:0}th{text-align:center}caption{margin-bottom:.5em;text-align:left}sup{vertical-align:super}sub{vertical-align:sub}button,input[type=checkbox],input[type=radio],input[type=reset],input[type=submit]{padding:1px}table{border-collapse:collapse}.align-left,td[align=left],th[align=left]{text-align:left!important}.align-center,td[align=center],th[align=center]{text-align:center!important}.align-right,td[align=right],th[align=right]{text-align:right!important}.valign-top,td[valign=top],th[valign=top]{vertical-align:top!important}.valign-middle,td[valign=middle],th[valign=middle]{vertical-align:middle!important}.valign-bottom,td[valign=bottom],th[valign=bottom]{vertical-align:bottom!important}.clear,.clearfix{display:block;clear:both;visibility:hidden;line-height:0;height:0}span.u,sup,u{text-decoration:underline}ins{color:green}small{font-size:.8em}big{font-size:1.2em}sub,sup{font-size:.7em;line-height:1em}div>:first-child{margin-top:0}div>:last-child{margin-bottom:0}
+/* INPUTS */
+input[type=checkbox],input[type=radio]{background:0 0;border:none;cursor:pointer;font-size:1em;height:auto;padding:0;position:relative;top:0}input[type=file]{line-height:normal}input[type=range]{background:0 0;border:none}.input-button,button,input[type=button],input[type=color],input[type=reset],input[type=submit]{-webkit-appearance:none;-moz-appearance:none;appearance:none}
+
+
+/**
+ * TOU.TV
+**/
+html, body{ background-color: #333; margin: 0; padding: 0; font-family: 'Radio-Canada', arial; }
+.accessibility__msg-hs{  left: -9999em; position: fixed; top: -99999em; z-index: -9999; }
+#toutv-header{ background: #00797f; height: 68px; position: relative; z-index: 5; }
+#toutv-header{
+	background: -webkit-linear-gradient(176deg,#00a5ad,#00a5ad 10.5%,#00797f);
+	background: -o-linear-gradient(176deg,#00a5ad,#00a5ad 10.5%,#00797f);
+	background: -moz-linear-gradient(176deg,#00a5ad,#00a5ad 10.5%,#00797f);
+	background: linear-gradient(176deg,#00a5ad,#00a5ad 10.5%,#00797f);
+	-webkit-box-shadow: -1px 0 5px 0 rgba(0,0,0,.4);
+	-o-box-shadow: -1px 0 5px 0 rgba(0,0,0,.4);
+	-moz-box-shadow: -1px 0 5px 0 rgba(0,0,0,.4);
+	box-shadow: -1px 0 5px 0 rgba(0,0,0,.4);
+}
+#toutv-header .logo{ float: left; padding: 12px 18px; }
+#toutv-header .logo img{ display: block; height: auto; }
+#toutv-header .menu{}
+#toutv-header .menu-button{ display: none; }
+#toutv-header .menu-wrapper ul{ display: table; height: 68px; margin: 0; padding: 0; }
+#toutv-header .menu-wrapper li{ display: table-cell; list-style: none; margin: 0; padding: 0 16px; vertical-align: middle;  }
+#toutv-header .menu-wrapper a{ border-bottom: 3px solid transparent; color: #fff; display: block; font-weight: 500; height: 38px; line-height: 38px; text-decoration: none; text-transform: uppercase; }
+#toutv-header .menu-wrapper a:focus,
+#toutv-header .menu-wrapper a:hover{ border-bottom-color: #00cad4; }
+#toutv-footer{ padding: 108px 0; }
+#toutv-footer .nav-footer{ margin-bottom: 64px; }
+#toutv-footer .nav-footer ul{ display: table; margin: 0 auto; padding: 0; }
+#toutv-footer .nav-footer li{ display: table-cell; list-style: none; margin: 0; padding: 0 32px; }
+#toutv-footer .nav-footer a{ color: #fff; font-size: 13px; font-weight: 400; text-decoration: none; }
+#toutv-footer .nav-footer a:focus,
+#toutv-footer .nav-footer a:hover{ color: #00848a }
+#toutv-footer .nav-footer a{ transition: color .15s; }
+#toutv-footer .socials{}
+#toutv-footer .socials ul{ display: table; margin: 0 auto; padding: 0; }
+#toutv-footer .socials li{ display: table-cell; list-style: none; margin: 0; padding: 0 32px; }
+#toutv-footer .socials a{ color: #fff; text-decoration: none; }
+#toutv-footer .socials a{ transition: color .15s; }
+#toutv-footer .socials a:focus,
+#toutv-footer .socials a:hover{ color: #00848a }
+#toutv-footer .socials .icon{ font-family: 'Radio-Canada Icon'; font-size: 30px; }
+#pixel{ left: -9999em; position: fixed; top: -9999em; }
+#sponsored{ background-color: #ccc; font-size: 12px; font-weight: normal; line-height: 1; text-align: center; text-transform: uppercase; position: relative; z-index: 3; }
+#sponsored .inner{ padding: 8px 5px; }
+#main{ background-color: #fff; }
+#wrapper{ overflow-x: hidden; }
+
+@media (max-width: 1599px){
+	#toutv-header .logo{ padding: 15px 18px 15px 17px; }
+	#toutv-header .logo img{ height: 36px; width: 142px;  }
+	#toutv-header .menu-wrapper a{ font-size: 14px; }
+}
+@media (max-width: 1365px) and (min-width: 1024px){
+	#toutv-header{ height: 58px; }
+	#toutv-header .logo{ padding: 10px 18px 15px 25px; }
+	#toutv-header .logo img{ height: 36px; width: 142px;  }
+	#toutv-header .menu-wrapper ul{ height: 58px; }
+	#toutv-header .menu-wrapper li{ padding: 0 8px; }
+	#toutv-header .menu-wrapper a{ font-size: 14px; }
+}
+@media (max-width: 1023px){
+	#toutv-header{ height: 58px; }
+	#toutv-header .logo{ float: none; margin: 0 auto; padding: 10px 18px; width: 178px; }
+	#toutv-header .logo img{ height: 36px; width: 142px;  }
+	#toutv-header .menu{ display: none; }
+}
+@media (max-width: 1023px) and (min-width: 768px){
+	#toutv-footer .nav-footer li{ padding: 0 10px; }
+	#toutv-footer .socials li{ padding: 0 10px; }
+}
+@media (max-width: 767px){
+	#toutv-footer .nav-footer ul{ display: block; }
+	#toutv-footer .nav-footer li{ display: block; margin: 0 0 16px 0; text-align: center; }
+	#toutv-footer .nav-footer a{ font-size: 16px; }
+	#toutv-footer .socials li{ padding: 0 16px; }
+}

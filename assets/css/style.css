@@ -1,0 +1,40 @@
+/***
+ *** PROJECT
+****/
+#wrapper{ height: 800px; }
+
+/**
+ * RESPONSIVE
+**/
+@media only screen and (min-width: 1260px){
+
+}
+@media only screen and (min-width: 990px) and (max-width: 1259px){
+
+}
+@media only screen and (min-width: 768px) and (max-width: 989px){
+
+}
+@media only screen and (max-width: 767px){
+
+}
+
+/**
+ * DEMO
+**
+html{ background: no-repeat center 0; }
+body{ opacity: 0.5; height: 80000px; margin: 0 auto; }
+/*
+@media only screen and (min-width: 1260px){
+
+}
+@media only screen and (min-width: 990px) and (max-width: 1259px){
+
+}
+@media only screen and (min-width: 768px) and (max-width: 989px){
+
+}
+@media only screen and (max-width: 767px){
+
+}
+/**/

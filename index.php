@@ -25,17 +25,17 @@ gtag('config', 'UA-87186208-51', { 'anonymize_ip': true });
 
 
 <!-- CODE :: Meta -->
-<title>@@@1 | ICI Radio-Canada.ca</title>
-<meta name="Description" content="@@@3b" />
-<meta name="Keywords" content="@@@3a" />
-<meta name="dc.title" content="@@@1 | ICI Radio-Canada.ca" />
-<meta name="dc.keywords" content="@@@3a" />
-<meta name="dc.description" content="@@@3b" />
-<meta property="og:url" content="@@@4a" />
+<title> | ICI Radio-Canada.ca</title>
+<meta name="Description" content="" />
+<meta name="Keywords" content="" />
+<meta name="dc.title" content=" | ICI Radio-Canada.ca" />
+<meta name="dc.keywords" content="" />
+<meta name="dc.description" content="" />
+<meta property="og:url" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="@@@1 | ICI Radio-Canada.ca" />
-<meta property="og:description" content="@@@3b" />
-<meta property="og:image" content="@@@4b" />
+<meta property="og:title" content=" | ICI Radio-Canada.ca" />
+<meta property="og:description" content="" />
+<meta property="og:image" content="" />
 <!-- /CODE :: Meta -->
 <!-- CODE :: Omniture -->
 <script>
@@ -151,8 +151,7 @@ dataLayerQueue.push ({
 
 <!-- CODE :: Javascripts -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="assets/js/lightbox-toutv.js?<?php echo filemtime('assets/js/lightbox-toutv.js'); ?>"></script>
-<script type="text/javascript" src="assets/js/share.js?<?php echo filemtime('assets/js/share.js'); ?>"></script>
+<script type="text/javascript" src="assets/js/scripts.js?<?php echo filemtime('assets/js/scripts.js'); ?>"></script>
 <!-- /CODE :: Javascripts -->
 
 

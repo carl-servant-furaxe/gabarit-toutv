@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Rubrik Md';
+    src: url('Rubrik-Medium.eot');
+    src: url('Rubrik-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Rubrik-Medium.woff2') format('woff2'),
+        url('Rubrik-Medium.woff') format('woff'),
+        url('Rubrik-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubrik';
+    src: url('Rubrik-Italic.eot');
+    src: url('Rubrik-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Rubrik-Italic.woff2') format('woff2'),
+        url('Rubrik-Italic.woff') format('woff'),
+        url('Rubrik-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rubrik SemBol';
+    src: url('Rubrik-SemiBold.eot');
+    src: url('Rubrik-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Rubrik-SemiBold.woff2') format('woff2'),
+        url('Rubrik-SemiBold.woff') format('woff'),
+        url('Rubrik-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubrik';
+    src: url('Rubrik-Bold.eot');
+    src: url('Rubrik-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Rubrik-Bold.woff2') format('woff2'),
+        url('Rubrik-Bold.woff') format('woff'),
+        url('Rubrik-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubrik Lt';
+    src: url('Rubrik-LightItalic.eot');
+    src: url('Rubrik-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Rubrik-LightItalic.woff2') format('woff2'),
+        url('Rubrik-LightItalic.woff') format('woff'),
+        url('Rubrik-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rubrik XLt';
+    src: url('Rubrik-ExtraLight.eot');
+    src: url('Rubrik-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Rubrik-ExtraLight.woff2') format('woff2'),
+        url('Rubrik-ExtraLight.woff') format('woff'),
+        url('Rubrik-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubrik';
+    src: url('Rubrik-BoldItalic.eot');
+    src: url('Rubrik-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Rubrik-BoldItalic.woff2') format('woff2'),
+        url('Rubrik-BoldItalic.woff') format('woff'),
+        url('Rubrik-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rubrik';
+    src: url('Rubrik-Regular.eot');
+    src: url('Rubrik-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Rubrik-Regular.woff2') format('woff2'),
+        url('Rubrik-Regular.woff') format('woff'),
+        url('Rubrik-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubrik SemBol';
+    src: url('Rubrik-SemiBoldItalic.eot');
+    src: url('Rubrik-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Rubrik-SemiBoldItalic.woff2') format('woff2'),
+        url('Rubrik-SemiBoldItalic.woff') format('woff'),
+        url('Rubrik-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rubrik Md';
+    src: url('Rubrik-MediumItalic.eot');
+    src: url('Rubrik-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Rubrik-MediumItalic.woff2') format('woff2'),
+        url('Rubrik-MediumItalic.woff') format('woff'),
+        url('Rubrik-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rubrik Lt';
+    src: url('Rubrik-Light.eot');
+    src: url('Rubrik-Light.eot?#iefix') format('embedded-opentype'),
+        url('Rubrik-Light.woff2') format('woff2'),
+        url('Rubrik-Light.woff') format('woff'),
+        url('Rubrik-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubrik XLt';
+    src: url('Rubrik-ExtraLightItalic.eot');
+    src: url('Rubrik-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Rubrik-ExtraLightItalic.woff2') format('woff2'),
+        url('Rubrik-ExtraLightItalic.woff') format('woff'),
+        url('Rubrik-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
